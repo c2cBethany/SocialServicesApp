@@ -27,22 +27,6 @@ class AgingResources : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.careFromHomeButton.setOnClickListener {
-            val fragment: Fragment? =
-                supportFragmentManager.findFragmentByTag(CareFromHome_Fragment::class.java.simpleName)
-            if (fragment !is CareFromHome_Fragment) {
-                supportFragmentManager.beginTransaction()
-                    .add(
-                        R.id.LinearFragment_Container,
-                        CareFromHome_Fragment(),
-                        CareFromHome_Fragment::class.java.simpleName
-                    )
-                    .commit()
-            }
-
-            binding.careFromHomeButton.visibility = View.GONE
-        }
-
 
     }
 }
