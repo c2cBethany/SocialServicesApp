@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:text="Which service do you need? "/>
+
+    <Button
+        android:id="@+id/agingOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aging"/>
+
+    <Button
+        android:id="@+id/disabilityOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disability"/>
+
+    <Button
+        android:id="@+id/disasterOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disaster Assistance"/>
+
+    <Button
+        android:id="@+id/financialOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Financial"/>
+
+    <Button
+        android:id="@+id/foodOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food"/>
+
+    <Button
+        android:id="@+id/healthOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health"/>
+
+    <Button
+        android:id="@+id/mentalHealthOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mental Health and Substance Abuse"/>
+
+    <Button
+        android:id="@+id/benefitsOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Questions About Benefits"/>
+
+    <Button
+        android:id="@+id/safetyOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safety Option"/>
+
+    <Button
+        android:id="@+id/rightsOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Rights"/>
+
+</LinearLayout>
