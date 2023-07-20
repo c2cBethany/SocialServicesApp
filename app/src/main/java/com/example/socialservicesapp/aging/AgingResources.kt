@@ -14,6 +14,8 @@ private lateinit var binding: ActivityAgingResourcesBinding
 class AgingResources : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
+        //test
+
         super.onCreate(savedInstanceState)
 
         binding = ActivityAgingResourcesBinding.inflate(layoutInflater)
