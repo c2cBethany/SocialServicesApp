@@ -13,7 +13,37 @@
         android:theme="@style/Theme.SocialServicesApp"
         tools:targetApi="31">
         <activity
-            android:name=".aging.AgingResources"
+            android:name=".aging.AgingLongTermCare"
+            android:exported="false" />
+        <activity
+            android:name=".rights.RightsResources"
+            android:exported="false" />
+        <activity
+            android:name=".safety.SafetyResources"
+            android:exported="false" />
+        <activity
+            android:name=".mentalhealth.MentalHealthAndAbuse"
+            android:exported="false" />
+        <activity
+            android:name=".Health.HealthResources"
+            android:exported="false" />
+        <activity
+            android:name=".food.FoodResources"
+            android:exported="false" />
+        <activity
+            android:name=".financial.FinancialResources"
+            android:exported="false" />
+        <activity
+            android:name=".disasterAssistance.DisasterAssistanceServices"
+            android:exported="false" />
+        <activity
+            android:name=".disability.DisabilityServices"
+            android:exported="false" />
+        <activity
+            android:name=".aging.ResidentialFacilitiesResources"
+            android:exported="false" />
+        <activity
+            android:name=".aging.AgingServices"
             android:exported="false" />
         <activity
             android:name=".HomePage"

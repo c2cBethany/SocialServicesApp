@@ -2,8 +2,17 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.SocialServicesApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="buttonStyle">@style/buttons</item>
     </style>
 
     <style name="Theme.SocialServicesApp" parent="Base.Theme.SocialServicesApp" />
+
+    <style name="buttons" parent="@android:style/Widget.Button">
+
+        <item name="backgroundColor">@color/blue</item>
+        <item  name="android:textSize">30sp</item>
+        <item name="cornerRadius">10dp</item>
+
+    </style>
 </resources>

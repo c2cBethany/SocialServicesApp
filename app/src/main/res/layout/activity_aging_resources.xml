@@ -6,47 +6,65 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".aging.AgingResources">
+    tools:context=".aging.AgingServices">
 
-    <LinearLayout
-        android:id="@+id/LinearFragment_Container"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="40dp"
+        android:text="Select one"
+        android:textColor="@color/darkblue"/>
+
+    <Button
+        android:id="@+id/agingLongtermCare"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:padding="20dp"
+        android:text="Do you want long term care services?"
+        android:textSize="20dp"
+        app:cornerRadius="10dp" />
 
-        <Button
-            android:id="@+id/careFromHomeButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Do you want care from home?" />
+    <Button
+        android:id="@+id/agingLivingAssistedFacilities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:padding="20dp"
+        android:text="Do you want living assisted facility services?"
+        android:textSize="20dp"
+        app:cornerRadius="10dp" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Do you want daytime care services?" />
+    <Button
+        android:id="@+id/AAANumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:padding="20dp"
+        android:text="Call Area Agency on Aging (AAA)"
+        android:textSize="20dp"
+        app:cornerRadius="10dp" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="How do I pay for longterm care?" />
+    <Button
+        android:id="@+id/findOffice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:padding="20dp"
+        android:text="Find an office near you"
+        android:textSize="20dp"
+        app:cornerRadius="10dp" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Do you want living assisted facility services?" />
-
-        <Button
-            android:id="@+id/AAANumber"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Call Area Agency on Aging (AAA)" />
-
-        <Button
-            android:id="@+id/findAgingServices"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Find an office near you" />
-    </LinearLayout>
+    <ImageButton
+        android:id="@+id/AgingBackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:padding="20dp"
+        android:textSize="20dp"
+        app:cornerRadius="10dp"
+        android:src="@drawable/baseline_arrow_back_24"/>
 
 
 </LinearLayout>
