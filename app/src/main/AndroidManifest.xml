@@ -43,7 +43,7 @@
             android:name=".aging.ResidentialFacilitiesResources"
             android:exported="false" />
         <activity
-            android:name=".aging.AgingServices"
+            android:name=".aging.AgingResources"
             android:exported="false" />
         <activity
             android:name=".HomePage"

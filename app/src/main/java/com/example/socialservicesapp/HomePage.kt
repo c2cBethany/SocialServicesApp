@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.socialservicesapp.Health.HealthResources
-import com.example.socialservicesapp.aging.AgingServices
+import com.example.socialservicesapp.aging.AgingResources
 import com.example.socialservicesapp.databinding.ActivityHomePageBinding
 import com.example.socialservicesapp.disability.DisabilityServices
 import com.example.socialservicesapp.disasterAssistance.DisasterAssistanceServices
@@ -23,7 +23,7 @@ class HomePage : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.agingOption.setOnClickListener{
-            val intent = Intent(this, AgingServices::class.java)
+            val intent = Intent(this, AgingResources::class.java)
             startActivity(intent)
 
         }
